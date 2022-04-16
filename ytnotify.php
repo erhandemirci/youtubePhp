@@ -143,9 +143,10 @@ if ($notify) {
     $data = json_encode(array(
         'content' => $msg
     ));
+    echo $data;
   
 
-    // cURL away!
+   /* // cURL away!
     $curl = curl_init();
     curl_setopt_array($curl, array(
         CURLOPT_URL => WEBHOOKURL,
@@ -161,6 +162,7 @@ if ($notify) {
 
     // Save latest date to file
     file_put_contents($LATEST_FILE, $inputdate);
+    */
 }
 
 ?>
