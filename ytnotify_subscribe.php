@@ -7,7 +7,7 @@
 const CHANNELIDS = array("UC1zAttFQKikWoKH3Vb39ETA");
 
 // Public callback URL
-const CALLBACKURL = "https://phpserver.dykal.repl.co/ytnotify.php";
+const CALLBACKURL = "https://phpservererhan.herokuapp.com/ytnotify.php";
 
 // Secret - must match ytnotify.php; should be reasonably hard to guess
 const SECRET = "QGWSOO8C3XK2";
