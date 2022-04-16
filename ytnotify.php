@@ -143,7 +143,7 @@ if ($notify) {
     $data = json_encode(array(
         'content' => $msg
     ));
-    
+    file_put_contents($LATEST_FILE, $inputdate);
     echo json_encode($data);
 /*
     // cURL away!
