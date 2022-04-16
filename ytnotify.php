@@ -143,7 +143,9 @@ if ($notify) {
     $data = json_encode(array(
         'content' => $msg
     ));
-
+    
+    echo json_encode($data);
+/*
     // cURL away!
     $curl = curl_init();
     curl_setopt_array($curl, array(
@@ -159,7 +161,7 @@ if ($notify) {
     curl_close($curl);
 
     // Save latest date to file
-    file_put_contents($LATEST_FILE, $inputdate);
+    file_put_contents($LATEST_FILE, $inputdate);*/
 }
 
 ?>
