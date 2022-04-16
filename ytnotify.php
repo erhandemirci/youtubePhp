@@ -13,7 +13,7 @@ const CHANNELIDS = array("UC1zAttFQKikWoKH3Vb39ETA");
 const SECRET = "QGWSOO8C3XK2";
 
 // Discord webhook URL
-const WEBHOOKURL = "https://phpservererhan.herokuapp.com/yd.json";
+const WEBHOOKURL = "https://phpservererhan.herokuapp.com/webhook.php";
 
 ///   ///   ///  ///   ///   ///
 
@@ -143,10 +143,10 @@ if ($notify) {
     $data = json_encode(array(
         'content' => $msg
     ));
-    echo $data;
+   
   
 
-   /* // cURL away!
+    // cURL away!
     $curl = curl_init();
     curl_setopt_array($curl, array(
         CURLOPT_URL => WEBHOOKURL,
@@ -162,7 +162,7 @@ if ($notify) {
 
     // Save latest date to file
     file_put_contents($LATEST_FILE, $inputdate);
-    */
+    
 }
 
 ?>
