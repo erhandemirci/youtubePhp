@@ -13,7 +13,7 @@ const CHANNELIDS = array("UC1zAttFQKikWoKH3Vb39ETA");
 const SECRET = "QGWSOO8C3XK2";
 
 // Discord webhook URL
-const WEBHOOKURL = "https://phpservererhan.herokuapp.com/webhook.php";
+const WEBHOOKURL = "https://discord.com/api/webhooks/964995518327566456/kjbZKWtyHgj22HJFk3_02l76l5DiD07WzGA9og0y7BI3g3mpd3VxkHjsCOb35lUClkcv";
 
 ///   ///   ///  ///   ///   ///
 
